@@ -23,15 +23,9 @@ m = subintervalos entre a e b
 
 h = (b - a)/m
 
-f”(εi) = segunda derivada em um ponto εi no segmento i
-
 **Aproximação:** 
 
 ![aproximação1](/formulas/aproximação1.png)
-
-**Estimativa de erro:** 
-
-![erro1](/formulas/erro1.png)
 
 ### 1/3 de Simpson repetida
 
