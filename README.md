@@ -19,7 +19,9 @@ analítica da integral utilizando 5 casas decimais, para os itens a, b, c.
 **Solução analítica:** 3π +3
 
 ### Trapézio repetida
-h = b - a
+m = subintervalos entre a e b
+
+h = (b - a)/m
 
 f”(εi) = segunda derivada em um ponto εi no segmento i
 
