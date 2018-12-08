@@ -7,7 +7,7 @@ def rk2(h, y0, x0, n):
     while xi < n:
         xi += h
         k1 = h * yd(yi)
-        k2 = h * yd(yi + k1)
+        k2 = h * yd(yi + h * k1)
         yi = yi + h/2 * (k1 + k2)
 
     return yi
